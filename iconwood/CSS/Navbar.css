@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+.custom-margin{
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.Top-Bar>.container-fluid>ul>li>a{
+    color: rgba(255, 255, 255, 0.774);
+}
+.Top-Bar>.container-fluid>ul>li>a:hover{
+    color: rgba(255, 255, 255, 0.952);
+}
+.Top-Bar{
+    background-color: #e86716;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-link{
+    margin: 0px 8px 0px 8px;
+    padding: 0px;
+}
+.Logo{
+    width: 220px;
+    height: auto;
+}
+
+.navbar-search{
+    width: 450px;
+    height: 40px;
+    border-radius: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 0px 20px 0px 35px;
+
+}
+.searchbutton{
+    background-color: #e86716;
+    height: 40px;
+
+}
+.search-btn{
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    line-height: 35px;
+}
+@media only screen and (max-width: 991px) {
+    #searchbox{
+        display: none;
+    }
+}
+
+
+.carticon-Box{
+    width: auto;
+}
+.Wishlist{
+    float: left;
+}
+.cart{
+    float: right;
+}
+.search-button{
+    float: left;
+    display: none;
+}
+.carticon>li{
+    width: 60px;
+
+}
+.carticon>li>svg{
+    color: #0a0a0a;
+    display: flex;
+    margin: auto;
+    padding-right: 14px;
+}
+.carticon>li>svg:hover{
+    color: #e86716;
+}
+.carticon>li>p{
+    color: #3f3f3f8a;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.2px;
+}
+.carticon>li>h1{
+    color: #3f3f3fc7;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    line-height: 28px;
+    display: flex;
+    position: absolute;
+    text-align: left;
+    margin-left: -9px;
+    letter-spacing: 0.7px;
+
+}
+@media only screen and (max-width: 991px) {
+
+    .carticon-Box{
+        margin-right: -18px;
+        width: auto;
+    }
+    .carticon>li{
+        width: 20px;
+    }
+    .carticon>li>h1{
+        display: none;
+    }
+    .search-button{
+        display: contents;
+    }
+    .carticon>li>svg{
+        color: #0a0a0a;
+        display: flex;
+        margin: auto;
+        padding-right: 0px;
+    }
+}
+.Main-Nav-Bar>.custom-margin{
+    border-bottom: 2px solid#e867161f;
+}
+.Main-Bar>ul>li>a{
+    color: rgba(26, 26, 26, 0.774);
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.7px;
+}
+.Main-Bar>ul>li>a:hover{
+    color: #e86716;
+}
+.slider>video{
+    width: 100%;
+    height:auto;
+}
+.slider-image>img{
+    width: 100%;
+    height:auto;
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+  .mobile-show{
+    color: rgb(255, 255, 255);
+    display: none;
+  }
+  @media only screen and (max-width: 991px) {
+    .custom-margin{
+        margin: 0px;
+    }
+    .mobile-out {
+      display: none;
+    }
+    .navbar-nav{
+        width: auto;
+        display: inline;
+    }
+    .navbar-nav>li{
+        float: left;
+    }
+    .mobile-show{
+        display: inline;
+      }
+    .hidden{
+        display: none;
+    }
+  }
